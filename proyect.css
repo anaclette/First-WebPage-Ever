@@ -1,0 +1,445 @@
+body {
+	background-image: linear-gradient(to right, #ffcbf1, #ffc166, #ffe762, #c69cd1, #b4c9ff, #6268ff, #006479);
+}
+
+.first {
+	float: left;
+	padding: 50px;
+	font-size: 5em;
+	font-family: 'great_vibesregular';
+	line-height: 1em;
+	color: white;
+	letter-spacing: 7pt;
+	transform: rotate(-5deg);
+	background: linear-gradient(100deg, #e481e4 28%, rgba(207, 29, 118, 0) 25%),
+		linear-gradient(110deg, #ebae3d 34%, #006479 41%);
+	background-size: 430%;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation-name: Gradient;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 30% 10%;
+	}
+	25% {
+		background-position: 10% 35% 60%;
+	}
+	50% {
+		background-position: 25% 50%;
+	}
+	100% {
+		background-position: 30% 50%;
+	}
+}
+@import url('grid_12-825-55-15.css');
+
+@font-face {
+	font-family: 'great_vibesregular';
+	src: url('greatvibes-regular-webfont.woff2') format('woff2'), url('greatvibes-regular-webfont.woff') format('woff');
+}
+
+h2 img {
+	transform: rotate(7deg);
+	float: right;
+	overflow: hidden;
+	border-radius: 4rem;
+	border: #006479 6px solid;
+	max-width: 260px;
+	max-height: 160px;
+	margin-bottom: 49px;
+}
+
+.h1 div {
+	display: flex;
+	border-radius: 12px;
+	margin-left: 7em;
+}
+
+.hills,
+.beach {
+	border: 2px solid white;
+	border-radius: 12px;
+	width: 455px;
+	height: 40em;
+	margin-left: 7.5em;
+	margin-right: 4.5em;
+
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
+}
+
+figure h3 {
+	display: flex;
+	position: absolute;
+	font-family: cursive;
+	padding-left: 103px;
+	font-size: 2.2em;
+	letter-spacing: 5pt;
+	color: white;
+	transform: rotate(-38deg);
+	animation: colorchange 5s infinite;
+	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
+}
+
+header div figure {
+	display: inline-flex;
+}
+
+.second {
+	background-image: url(https://66.media.tumblr.com/7c7a815d2772fb14554e71d9273f0c76/tumblr_oufp089IYP1rjlj53o1_400.gifv);
+	font-family: 'great_vibesregular';
+	color: rgb(243, 216, 97);
+	letter-spacing: 3pt;
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	border-radius: 4rem;
+	border: rgb(243, 216, 97) 6px solid;
+	text-align: center;
+	font-size: 2em;
+	padding: 64px;
+	margin-bottom: 10px;
+	margin-left: 15em;
+	animation-name: rotation;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+@keyframes rotation {
+	20% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-10deg);
+	}
+	60% {
+		transform: rotate(5deg);
+	}
+	80% {
+		transform: rotate(-5deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.food {
+	display: flex;
+	justify-content: center;
+	margin-top: 18rem;
+}
+
+.col1salty,
+.col2salty,
+.col1sweet,
+.col2sweet {
+	font-size: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+.col1sweet {
+	margin-left: 13rem;
+}
+
+.icecream,
+.chocolate,
+.pancake,
+.cake,
+.salad,
+.snacks,
+.pizza,
+.stuffed {
+	border: 2px solid white;
+	border-radius: 12px;
+	font-size: 0;
+	cursor: url("https://image.flaticon.com/icons/png/128/1933/1933790.png"), auto;
+}
+
+.salty {
+	font-family: cursive;
+	font-size: 2.2em;
+	letter-spacing: 5pt;
+	color: white;
+	transform: rotate(-38deg);
+	padding-top: 10em;
+	margin-left: -6em;
+	animation: colorchange 5s infinite;
+	cursor: url("https://image.flaticon.com/icons/png/128/1933/1933790.png"), auto;
+}
+
+.sweet {
+	font-family: cursive;
+	font-size: 2.2em;
+	letter-spacing: 5pt;
+	color: white;
+	transform: rotate(38deg);
+	margin-left: 17em;
+	position: absolute;
+	animation: colorchange 5s infinite;
+}
+
+.third {
+	background-image: url(https://media1.tenor.com/images/552ec189475f1d337391b02d6b0b9965/tenor.gif?itemid=13113745);
+	color: transparent;
+	font-family: 'great_vibesregular';
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	letter-spacing: 6pt;
+	margin-top: 75px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.schedule {
+	display: flex;
+	margin-top: 6rem;
+}
+
+.col1morning,
+.col2morning,
+.col1evening,
+.col2evening {
+	font-size: 0;
+}
+
+.early,
+.reading,
+.coffee,
+.running,
+.tv,
+.book,
+.sleeping,
+.laptop {
+	border: 2px solid white;
+	border-radius: 12px;
+	font-size: 0;
+}
+
+.col2morning {
+	margin-right: 100px;
+	cursor: url("https://s1.significados.com/foto/emoji-ojos.png"), auto;
+}
+
+.col1morning {
+	margin-left: 62px;
+	cursor: url("https://s1.significados.com/foto/emoji-ojos.png"), auto;
+}
+
+.evening {
+	font-family: cursive;
+	font-size: 2.2em;
+	letter-spacing: 5pt;
+	color: white;
+	transform: rotate(30deg);
+	margin: 0 auto;
+	margin-left: -10em;
+	animation: colorchange 5s infinite;
+	cursor: url("https://dict.emojiall.com/images/120/emojione/1f987.png"), auto;
+}
+
+.col1evening {
+	cursor: url("https://dict.emojiall.com/images/120/emojione/1f987.png"), auto;
+}
+
+.morning {
+	display: flex;
+	position: absolute;
+	font-family: cursive;
+	font-size: 2.2em;
+	letter-spacing: 5pt;
+	color: white;
+	transform: rotate(-30deg);
+	margin-left: 30px;
+	animation: colorchange 5s infinite;
+	cursor: url("https://s1.significados.com/foto/emoji-ojos.png"), auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.phrase {
+	font-family: 'great_vibesregular';
+	font-size: 4em;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+
+p {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	animation: typing 6s steps(60);
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer {
+	font-family: 'Montserrat';
+	color: #4d4b9c;
+	letter-spacing: .13em;
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 30px;
+	animation: typing 3s steps(50);
+	max-width: 420px;
+	animation-iteration-count: infinite;
+	margin-top: 65px;
+	margin-left: 50px;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 80%;
+	}
+}
+
+@keyframes colorchange {
+	0% {
+		color: rgb(241, 147, 23);
+	}
+	10% {
+		color: #bc3ae4;
+	}
+	20% {
+		color: rgb(236, 225, 68);
+	}
+	30% {
+		color: rgb(62, 129, 73);
+	}
+	40% {
+		color: green;
+	}
+	50% {
+		color: rgb(45, 45, 99);
+	}
+	60% {
+		color: rgb(240, 120, 9);
+	}
+	70% {
+		color: rgb(0, 110, 255);
+	}
+	80% {
+		color: #4e0e61;
+	}
+}
+
+footer:hover {
+	color: rgb(243, 116, 43);
+	transition: all 0.2s ease;
+}
+
+::selection {
+	color: rgb(255, 115, 0);
+	background: rgb(231, 233, 130);
+}
+
+body::-webkit-scrollbar {
+	background-color: rgb(88, 148, 238);
+	border-radius: 4px;
+	border: 3px solid rgb(141, 95, 247);
+	box-shadow: inset 0 0 12px white;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgb(247, 241, 241);
+	border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: rgb(128, 20, 20);
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background-size: 170%;
+	}
+	figure {
+		max-width: 10%;
+		height: auto;
+	}
+
+	header figure img {
+		max-width: 350px;
+		max-height: 300px;
+	}
+
+	.hills {
+		margin-left: 330px;
+	}
+
+	.first {
+		font-size: 2em;
+		display: inline;
+		padding: 0;
+		padding-left: 15px;
+	}
+
+	h2 img {
+		width: 4em;
+		transform: rotate(38deg);
+	}
+
+	figure h3 {
+		font-size: 1em;
+	}
+
+	.phrase {
+		font-size: 2em;
+	}
+
+	.second {
+		font-size: 1em;
+		display: flex;
+		text-align: center;
+		margin-left: 2px;
+		font-size: 35px;
+		color: #ec7b10;
+		padding: 22px;
+	}
+
+	div figure img {
+		width: 150px;
+	}
+
+	.third {
+		font-size: 2em;
+	}
+
+	.salty,
+	.sweet,
+	.morning,
+	.evening,
+	footer {
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+}
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
