@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
-body {
+html {
 	background-image: linear-gradient(to right, #ffcbf1, #e6b05f, #ffe762, #c69cd1, #95a5ce, #5457a3, #035161);
 	backdrop-filter: blur(50px) saturate(125%) contrast(110%);
 	height: 100vh;
@@ -286,7 +286,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 @media (min-width: 600px) and (max-width: 900px) {
-	body {
+	html {
 		background-size: 180%;
 		backdrop-filter: blur(50px) saturate(125%) contrast(110%);
 		height: 100vh;
@@ -350,7 +350,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
  	@media (max-width: 600px) {
-	body {
+	html {
 		background-size: 180%;
 		backdrop-filter: blur(50px) saturate(125%) contrast(110%);
 		height: 100vh;
