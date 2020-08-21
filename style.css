@@ -365,15 +365,13 @@ body::-webkit-scrollbar-thumb:hover {
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
-
 	}
 
 	.first-section-image img {
-		width: 380px;
-		
+		width: 320px;
 	}
 	.second-title {
-		font-size: 38px;
+		font-size: 2rem;
 		margin: auto;
 	}
 
@@ -391,15 +389,15 @@ body::-webkit-scrollbar-thumb:hover {
 	}
 
 	.second-section-saltyfood img, .second-section-sweetfood img, .third-section-eveningpeople img, .third-section-earlypeople img {
-		max-width: 200px;
+		max-width: 180px;
 	}
 
 	.third-title {
-		font-size: 50px;
+		font-size: 2rem;
 	}
 
 	.phrase {
-		font-size: 35px;
+		font-size: 22px;
 	
 	}
 
